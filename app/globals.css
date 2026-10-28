@@ -1,0 +1,177 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-secondary-container: #22a0a6;
+  --color-outline: #849581;
+  --color-tertiary-container: #e7d6ff;
+  --color-on-primary-fixed: #002107;
+  --color-surface-container-lowest: #0b0e14;
+  --color-on-tertiary-fixed: #260058;
+  --color-surface-container-low: #191c22;
+  --color-background: #10131a;
+  --color-primary-fixed-dim: #00e55b;
+  --color-on-secondary-container: #002f32;
+  --color-on-secondary-fixed-variant: #004f53;
+  --color-status-in-use: #78E5EC;
+  --color-on-secondary-fixed: #002022;
+  --color-tertiary: #fef8ff;
+  --color-surface-tint: #00e55b;
+  --color-on-error-container: #ffdad6;
+  --color-secondary-fixed-dim: #69d7de;
+  --color-inverse-on-surface: #2e3037;
+  --color-surface-container-high: #272a31;
+  --color-on-primary: #003911;
+  --color-on-error: #690005;
+  --color-tertiary-fixed-dim: #d4bbff;
+  --color-surface-container-highest: #32353c;
+  --color-accent-emerald: #10B981;
+  --color-secondary: #69d7de;
+  --color-inverse-surface: #e1e2eb;
+  --color-status-offline: #4A5568;
+  --color-surface-card: #12161F;
+  --color-status-reserved: #B993FF;
+  --color-outline-variant: #3b4b3a;
+  --color-on-surface: #e1e2eb;
+  --color-error: #ffb4ab;
+  --color-primary: #edffe8;
+  --color-on-primary-fixed-variant: #00531b;
+  --color-on-background: #e1e2eb;
+  --color-on-tertiary-fixed-variant: #563096;
+  --color-surface-elevated: #1A202C;
+  --color-surface-base: #0B0E14;
+  --color-inverse-primary: #006e27;
+  --color-on-surface-variant: #b9ccb5;
+  --color-surface-bright: #363940;
+  --color-tertiary-fixed: #ebdcff;
+  --color-on-primary-container: #007128;
+  --color-surface: #10131a;
+  --color-primary-fixed: #6bff83;
+  --color-error-container: #93000a;
+  --color-on-tertiary-container: #714cb3;
+  --color-secondary-fixed: #87f3fa;
+  --color-surface-container: #1d2026;
+  --color-surface-variant: #32353c;
+  --color-primary-container: #00ff66;
+  --color-status-available: #00FF66;
+  --color-surface-dim: #10131a;
+  --color-on-secondary: #003739;
+  --color-on-tertiary: #3e127e;
+
+  --spacing-margin: 2rem;
+  --spacing-margin-mobile: 1rem;
+  --spacing-gutter: 1.5rem;
+  --spacing-gutter-mobile: 1rem;
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2.5rem;
+
+  --font-sans: var(--font-geist-sans);
+  --font-display: var(--font-space-grotesk);
+  --font-mono: var(--font-geist-mono);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0B0E14;
+  color: #e1e2eb;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  overscroll-behavior: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Typography Utility Classes */
+.font-display-lg, .font-headline-lg, .font-headline-md, .font-headline-sm {
+  font-family: var(--font-space-grotesk), var(--font-geist-sans), system-ui, sans-serif;
+}
+
+.font-body-lg, .font-body-md, .font-body-sm, .font-label-lg, .font-label-md, .font-label-sm {
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+.text-display-lg {
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+.text-display-lg-mobile {
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+}
+
+.text-headline-lg {
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+
+.text-headline-lg-mobile {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+
+.text-headline-md {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.text-headline-sm {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.text-body-lg {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.text-body-md {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.text-body-sm {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.text-label-lg {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+
+.text-label-md {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+.text-label-sm {
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}

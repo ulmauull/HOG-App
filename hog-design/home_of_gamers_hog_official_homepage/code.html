@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&amp;family=Space+Grotesk:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "secondary-container": "#22a0a6", "outline": "#849581", "tertiary-container": "#e7d6ff", "on-primary-fixed": "#002107", "surface-container-lowest": "#0b0e14", "on-tertiary-fixed": "#260058", "surface-container-low": "#191c22", "background": "#10131a", "primary-fixed-dim": "#00e55b", "on-secondary-container": "#002f32", "on-secondary-fixed-variant": "#004f53", "status-in-use": "#78E5EC", "on-secondary-fixed": "#002022", "tertiary": "#fef8ff", "surface-tint": "#00e55b", "on-error-container": "#ffdad6", "secondary-fixed-dim": "#69d7de", "inverse-on-surface": "#2e3037", "surface-container-high": "#272a31", "on-primary": "#003911", "on-error": "#690005", "tertiary-fixed-dim": "#d4bbff", "surface-container-highest": "#32353c", "accent-emerald": "#10B981", "secondary": "#69d7de", "inverse-surface": "#e1e2eb", "status-offline": "#4A5568", "surface-card": "#12161F", "status-reserved": "#B993FF", "outline-variant": "#3b4b3a", "on-surface": "#e1e2eb", "error": "#ffb4ab", "primary": "#edffe8", "on-primary-fixed-variant": "#00531b", "on-background": "#e1e2eb", "on-tertiary-fixed-variant": "#563096", "surface-elevated": "#1A202C", "surface-base": "#0B0E14", "inverse-primary": "#006e27", "on-surface-variant": "#b9ccb5", "surface-bright": "#363940", "tertiary-fixed": "#ebdcff", "on-primary-container": "#007128", "surface": "#10131a", "primary-fixed": "#6bff83", "error-container": "#93000a", "on-tertiary-container": "#714cb3", "secondary-fixed": "#87f3fa", "surface-container": "#1d2026", "surface-variant": "#32353c", "primary-container": "#00ff66", "status-available": "#00FF66", "surface-dim": "#10131a", "on-secondary": "#003739", "on-tertiary": "#3e127e" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin": "2rem", "gutter-mobile": "1rem", "gutter": "1.5rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "margin-mobile": "1rem", "space-lg": "1.5rem", "space-sm": "0.5rem", "space-md": "1rem" }, "fontFamily": { "display-lg": [ "Space Grotesk" ], "headline-md": [ "Space Grotesk" ], "display-lg-mobile": [ "Space Grotesk" ], "body-lg": [ "Geist" ], "body-md": [ "Geist" ], "label-lg": [ "Geist" ], "label-sm": [ "Geist" ], "headline-lg": [ "Space Grotesk" ], "headline-lg-mobile": [ "Space Grotesk" ], "headline-sm": [ "Space Grotesk" ], "body-sm": [ "Geist" ], "label-md": [ "Geist" ] }, "fontSize": { "display-lg": [ "48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "headline-md": [ "20px", { "lineHeight": "28px", "fontWeight": "600" } ], "display-lg-mobile": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "body-lg": [ "16px", { "lineHeight": "24px", "fontWeight": "400" } ], "body-md": [ "14px", { "lineHeight": "20px", "fontWeight": "400" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600" } ], "label-sm": [ "10px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "600" } ], "headline-lg": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "headline-lg-mobile": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "headline-sm": [ "16px", { "lineHeight": "24px", "fontWeight": "600" } ], "body-sm": [ "12px", { "lineHeight": "16px", "fontWeight": "400" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500" } ] } } } }</script></head><body class="bg-surface-base font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.4)]"><div class="h-20 w-full px-margin flex items-center justify-between"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-sm" data-path="beranda" href="#"><img alt="HOG Official Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VwBV3LPGocRl9kup1uFCZkBrTUI3IpQXXr-UKi4wMC4hmUaY4GiiFlIDXTHVPPtxhiJtwgxqPvW5CK8V-GzokqOSB6m4MHsdxHbMsq3hQPl9zWieJey-ct1z30LTc2D4hNPaofs41suIt0hEsHT52HPP6KFr7TsEP9FGeo7nrgmKJHci_US7etAhmDFagQA5KNbOS67-dcVfvSMJB9ME9rYkglz_LhrdCMuAsUQrEo"/><span class="font-headline-sm text-headline-sm uppercase text-primary">Home Of Gamers</span></a></div><nav class="hidden lg:flex items-center gap-space-sm px-space-xs" data-active-classes="bg-surface-container-high text-primary-container rounded-lg"><a aria-current="page" class="px-space-md py-space-sm font-label-md transition-colors bg-surface-container-high text-primary-container rounded-lg" data-path="beranda" href="#">Beranda</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors rounded-lg" data-path="fasilitas" href="#">Fasilitas</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors rounded-lg" data-path="paket-&amp;-harga" href="#">Paket &amp; Harga</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors rounded-lg" data-path="booking-pc" href="#">Booking PC</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors rounded-lg" data-path="status-booking" href="#">Status Booking</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors rounded-lg" data-path="lokasi-&amp;-kontak" href="#">Lokasi &amp; Kontak</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center font-label-lg text-label-lg bg-primary-container text-on-primary-fixed rounded-lg px-space-lg py-space-sm hover:shadow-[0_0_24px_rgba(0,255,102,0.4)] transition-all" data-path="booking-pc" href="#">Booking Sekarang</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div><button class="lg:hidden flex items-center justify-center p-space-sm text-on-surface-variant hover:text-on-surface" type="button"><span class="material-symbols-outlined text-[24px]">menu</span></button></div></div></header><main class="w-full pt-20 bg-surface-base"><div class="flex flex-col w-full">
+<!-- SECTION 1: HERO -->
+<section class="relative w-full -mt-20 pt-28 pb-16 lg:pb-24 px-margin overflow-hidden bg-surface-container-lowest">
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[700px] h-[450px] bg-primary-container/10 rounded-full blur-[140px] pointer-events-none"></div>
+<div class="absolute top-1/3 -right-24 w-[400px] h-[400px] bg-secondary/10 rounded-full blur-[120px] pointer-events-none"></div>
+<div class="max-w-7xl mx-auto w-full flex flex-col gap-space-xl relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-7 flex flex-col gap-space-lg">
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-primary-container font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-status-available animate-ping"></span>
+              ⚡ 24 JAM NON-STOP
+            </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-secondary font-label-sm text-label-sm">
+              🎮 HIGH-END GAMING PC
+            </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+              ☕ CAFE &amp; LOUNGE
+            </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+              📶 1 GBPS DEDICATED FIBER
+            </span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<h1 class="font-display-lg text-display-lg text-primary tracking-tight">
+              Your Game.<br/>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-container via-secondary to-primary">Your Space.</span><br/>
+              Your Home.
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+              Rasakan pengalaman gaming yang nyaman, performa PC kelas turnamen, dan atmosfer eksklusif midnight lounge untuk setiap gamer di Indonesia.
+            </p>
+</div>
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="relative group inline-flex items-center justify-center gap-2 font-label-lg text-label-lg px-space-xl py-3.5 rounded-lg bg-primary-container text-on-primary-fixed shadow-[0_0_30px_rgba(0,255,102,0.35)] hover:shadow-[0_0_40px_rgba(0,255,102,0.6)] transition-all" data-path="booking-pc" href="#">
+<span class="material-symbols-outlined text-[20px]">sports_esports</span>
+<span>Booking PC Sekarang</span>
+<span class="absolute inset-0 rounded-lg overflow-hidden pointer-events-none">
+<span class="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></span>
+</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 font-label-lg text-label-lg px-space-lg py-3.5 rounded-lg bg-surface-container text-on-surface hover:bg-surface-elevated hover:text-primary transition-all" href="#fasilitas">
+<span class="material-symbols-outlined text-[20px]">meeting_room</span>
+<span>Lihat Fasilitas &amp; Ruangan</span>
+</a>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="relative rounded-2xl overflow-hidden shadow-2xl bg-surface-card">
+<img class="w-full h-[380px] lg:h-[440px] object-cover filter brightness-90 contrast-110" data-alt="High-end esports cyber gaming lounge interior with custom illuminated desks, curved 240Hz monitors glowing green and cyan, dark midnight ambiance, premium ergonomic gaming chairs, and moody neon accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEsyAU5ZecKCgQCO0QY3cJUmC25Als8Qa6HAAEzPi4gU9oCcz5YTnaRShpKyFyXZDK-TSDr9vHVB2ymaWzlevcWwRBWlAS0nmBFvPN-FBtlCB6fGTKHdZFG-nyQRopgSt271qztLoSzRryWab1ChWK_8pxNcIUTVgrMNNy9JIvjx-SPx3huGbmr9fvkcepY3wQTIq4or8GtOwnGAoHPDMGroLaB2uPzz34SEF2HBc"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-base via-transparent to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-surface-container-lowest/80 backdrop-blur-md flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-lg bg-primary-container/20 flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[22px]">speed</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">Ultra Low Latency</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">&lt; 3ms Ping ke Valorant &amp; CS2</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-status-available uppercase px-2.5 py-1 rounded-full bg-primary-container/10">Active 1Gbps</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Status Bar -->
+<div class="w-full p-4 lg:p-6 rounded-xl bg-surface-card shadow-lg flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-[24px]">desktop_windows</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">Ketersediaan Rig Real-Time</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Update otomatis setiap 10 detik</span>
+</div>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3 lg:gap-6 w-full md:w-auto">
+<div class="flex items-center gap-2.5 px-3 py-2 rounded-lg bg-surface-container">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Total PC</span>
+<span class="font-headline-sm text-headline-sm text-primary">12 Unit</span>
+</div>
+</div>
+<div class="flex items-center gap-2.5 px-3 py-2 rounded-lg bg-surface-container">
+<span class="w-2.5 h-2.5 rounded-full bg-status-available animate-pulse"></span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Tersedia</span>
+<span class="font-headline-sm text-headline-sm text-status-available">8 PC</span>
+</div>
+</div>
+<div class="flex items-center gap-2.5 px-3 py-2 rounded-lg bg-surface-container">
+<span class="w-2.5 h-2.5 rounded-full bg-status-in-use"></span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Digunakan</span>
+<span class="font-headline-sm text-headline-sm text-status-in-use">3 PC</span>
+</div>
+</div>
+<div class="flex items-center gap-2.5 px-3 py-2 rounded-lg bg-surface-container">
+<span class="w-2.5 h-2.5 rounded-full bg-status-reserved"></span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Dipesan</span>
+<span class="font-headline-sm text-headline-sm text-status-reserved">1 PC</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: ABOUT HOG -->
+<section class="w-full py-16 lg:py-24 px-margin bg-surface">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-container">Tentang Home Of Gamers</span>
+<h2 class="font-display-lg text-headline-lg lg:text-display-lg text-primary tracking-tight">
+            Lebih dari Sekadar Warnet — Rumah Bagi Gamer Sejati.
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Lahir dari hasrat murni komunitas kompetitif, HOG dirancang untuk mengikis stigma warnet konvensional yang bising dan sesak. Kami mengawinkan standar esports profesional dengan kenyamanan hospitality premium.
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Setiap meja, pencahayaan minim silau, tata suara terkalibrasi, hingga suplai makanan berkualitas tinggi disiapkan agar Anda bisa push rank tanpa kompromi performa dan kenyamanan.
+          </p>
+</div>
+<div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="p-6 rounded-xl bg-surface-card flex flex-col gap-3 shadow-md hover:bg-surface-elevated transition-colors">
+<div class="w-12 h-12 rounded-lg bg-primary-container/15 flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[28px]">airline_seat_recline_extra</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Kursi Ergonomis Premium</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Bantalan lumbar adaptif dengan material breathable mesh, menopang postur tubuh untuk sesi gaming maraton 8+ jam tanpa letih.
+            </p>
+</div>
+<div class="p-6 rounded-xl bg-surface-card flex flex-col gap-3 shadow-md hover:bg-surface-elevated transition-colors">
+<div class="w-12 h-12 rounded-lg bg-secondary/15 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[28px]">local_cafe</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Refreshment &amp; Snack Bar</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Menu kopi artisan, minuman berenergi dingin, dan cemilan hangat siap diantar langsung ke meja monitor Anda hanya lewat pemesanan scan QR.
+            </p>
+</div>
+<div class="p-6 rounded-xl bg-surface-card flex flex-col gap-3 shadow-md hover:bg-surface-elevated transition-colors">
+<div class="w-12 h-12 rounded-lg bg-secondary/15 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[28px]">ac_unit</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">AC Dingin &amp; Sirkulasi Terawat</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Sistem pendingin inverter konstan 20-22°C dan pembersih udara HEPA terpisah menjaga ruangan tetap sejuk, higienis, dan wangi sepanjang hari.
+            </p>
+</div>
+<div class="p-6 rounded-xl bg-surface-card flex flex-col gap-3 shadow-md hover:bg-surface-elevated transition-colors">
+<div class="w-12 h-12 rounded-lg bg-primary-container/15 flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[28px]">trophy</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Komunitas &amp; Turnamen Rutin</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Wadah kompetisi mingguan untuk Valorant, Dota 2, dan CS2 dengan prizepool jutaan rupiah serta komunitas gamer yang suportif dan solid.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: FACILITIES -->
+<section class="w-full py-16 lg:py-24 px-margin bg-surface-container-lowest" id="fasilitas">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs max-w-xl">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-container">Standar Tanpa Kompromi</span>
+<h2 class="font-display-lg text-headline-lg lg:text-display-lg text-primary tracking-tight">Fasilitas Eksklusif Arena</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Hardware generasi terkini, ruang steril berfilter khusus, dan konektivitas anti-interupsi disiapkan secara presisi untuk kenyamanan penuh.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Card 1 -->
+<div class="p-6 rounded-2xl bg-surface-card shadow-lg flex flex-col gap-space-md group hover:bg-surface-elevated transition-all">
+<div class="w-full h-44 rounded-xl overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close up photo of high end gaming rig inside dark moody internet cafe with custom green watercooling loop, glowing RTX GPU, mechanical keyboard with RGB backlit keycaps, and ultra smooth high refresh rate gaming display." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOscRxfzK1dA1YpPehg_3BJEYhX2bLj24DWNHoNXGTiE-qwfjHqKdnmKw12_P7PuclWnKkPP_G-5RHihDp2oY80GB9IzPPa7Tn0xj_fhBwcA9kqHu3LAwV-5Da5Iu_haOylcmg5VS14_BpHouyrgZUaT-n8ftVm9m4Si8abWqeHITUQkoiooQgfuCTlB6qz8pfwcZlZTDpSkn7bfYS-hgt_ZdEIeow6uknYrD8EZk"/>
+<span class="absolute top-3 right-3 font-label-sm text-label-sm px-2.5 py-1 rounded bg-surface-container-lowest/80 text-primary-container uppercase">Specs Level A</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-md text-headline-md text-primary">High-Performance Gaming PCs</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Panel IPS 240Hz / 280Hz 0.5ms G-Sync, Keyboard Mechanical Tactile, dan Precision Mouse sensor optical 26.000 DPI siap bertarung.
+            </p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="p-6 rounded-2xl bg-surface-card shadow-lg flex flex-col gap-space-md group hover:bg-surface-elevated transition-all">
+<div class="w-full h-44 rounded-xl overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Ergonomic gaming battle station desk with wide mousepad surface, microphone boom arm, studio over-ear headsets with noise isolation, and soft ambient cyan underglow lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTQWEnL8bj0n1V4CQ-ZqjzaHrrU5qi5cBIBJinFo8hSxmF4z1tLOx4Uo3HQHWQ8yDYZcRBC7gakaqKLZQuBGmZjVIWTJnilkmU7i8pwoP-yoRf62_-dWkHu1OUZXS5pl8mgK_9vQ_gdfxQSZr33ZcAIE16wylQISjA7U74LfmDMKGckLqZcoK9UtKmeOHzWDfhfqYDFgpANu9ohkkyHMEUZf-et4Ckm2pQ1WEL4y4"/>
+<span class="absolute top-3 right-3 font-label-sm text-label-sm px-2.5 py-1 rounded bg-surface-container-lowest/80 text-secondary uppercase">Ergo Design</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-md text-headline-md text-primary">Stasiun Gaming Nyaman</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Meja 120cm ekstra lega dengan extended mousepad, sandaran tangan fleksibel, dan headset studio audio bersuara jernih minim noise.
+            </p>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="p-6 rounded-2xl bg-surface-card shadow-lg flex flex-col gap-space-md group hover:bg-surface-elevated transition-all">
+<div class="w-full h-44 rounded-xl overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Dedicated smoking room gaming section inside modern cyber lounge, industrial glass partition, stainless steel ventilation exhaust hood systems, and soft accent green neon light strips." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0zORyRKYG38i_jhuDWNLDwTRNwKNdg1k-W-5jr3TR7XB2eitzEzDLW4H9cgCBlhBpFX3nfasgiYasGmBXqkE3IQhl2q1KZOE23cmAUtqi2qT3jwhww5R7JFg0xqZoAaBpxdMvTh1mWnsyrLduAITUJx8E3Ngu5qKtCFfTvcxYOTGBcPYUeAfdBBjZo4NFA1OnFoxfRKg5mwlrXpqnMuKjcGtlXb7Awy_jI5xSw_M"/>
+<span class="absolute top-3 right-3 font-label-sm text-label-sm px-2.5 py-1 rounded bg-surface-container-lowest/80 text-on-surface uppercase">Negative Pressure</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-md text-headline-md text-primary">Dedicated Smoking Room</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Sistem exhaust sirkulasi tekanan negatif 12 blower aktif dengan karbon filter. Nikmati rokok santai tanpa membuat mata perih atau ruangan pengap.
+            </p>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="p-6 rounded-2xl bg-surface-card shadow-lg flex flex-col gap-space-md group hover:bg-surface-elevated transition-all">
+<div class="w-full h-44 rounded-xl overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Pristine clean non-smoking gaming room with air purifiers, fresh aroma diffusers, modern minimalist dark charcoal interior and gamers wearing headsets in a tranquil environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEfCLbDPLsDR6pK4AN6j2jz9x_ndtW1puCaUjINSXfphCe9OGlAF6BWUuB-z6cOmaesmchfCxcSBNCRwYejbyToEgq_NJf_qzPuLcmjusb7xTe9WQ7Bae2JpXOrteHE9e0DVZOkiisYAXBa-v_PkEsAhdX06dXW18wYj6CCItwYqHP34hGHQbcn8Fenz1-9bMKjGEGG4SOOJ4RooBReg5u9Idzez2CszBeuKidQeM"/>
+<span class="absolute top-3 right-3 font-label-sm text-label-sm px-2.5 py-1 rounded bg-surface-container-lowest/80 text-primary-container uppercase">100% Smoke Free</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-md text-headline-md text-primary">Non-Smoking Clean Room</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Zona bersih mutlak dengan aroma terapi menyegarkan, sanitasi stasiun berkala, dan udara murni bebas residu abu atau asap tembakau.
+            </p>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="p-6 rounded-2xl bg-surface-card shadow-lg flex flex-col gap-space-md group hover:bg-surface-elevated transition-all">
+<div class="w-full h-44 rounded-xl overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="5 versus 5 esports tournament stage setup with five synchronised high end PC gaming stations side by side, illuminated team badges, high performance curved monitors in dark cyberpunk esports arena." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwtELosvmmgN9fQ-i2O4jpKuuTsSZoTYSAjxupoE_sYl9pn_eHskYkH5YyFRgS0gqCSPDKT1fAVGQApOVue6BC9tX22dvnbPSsTov9kd96CU7WtEsmTmm81lGae9AS29R0REzTKsvfAFvQs-2eOn-fz8E-6osUW8GRPZ3K2uX1_5vKOaWy3Q60DwVykiPigZRugV0h95LFc_x6tjqX6vJu_7ceCZCsilPbZETUePU"/>
+<span class="absolute top-3 right-3 font-label-sm text-label-sm px-2.5 py-1 rounded bg-surface-container-lowest/80 text-secondary uppercase">5v5 Squad Booth</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-md text-headline-md text-primary">Group Squad &amp; Scrim Zone</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Tata letak 5v5 sejajar khusus squad esports untuk scrim tim, komunikasi suara langsung tanpa latensi, serta privasi strategi bertanding.
+            </p>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="p-6 rounded-2xl bg-surface-card shadow-lg flex flex-col gap-space-md group hover:bg-surface-elevated transition-all">
+<div class="w-full h-44 rounded-xl overflow-hidden relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="High tech networking server rack with glowing ethernet cables, blinking green activity lights, high speed optical fiber lines inside modern internet gaming cafe control center." src="https://lh3.googleusercontent.com/aida-public/AB6AXuASUpKr3GxJUjm2uLAfnIqFFyHjMf7dBs91PVTJ-vLVB9oWb4wOGAns3pYrRRsj0mEioEBP462oVkrwWBCC_kCnBnGDCDHlGSsifkUha6APVljukzXJC1tbCQ5R5eSq_iCisnWvNWNHjYnpPUxUOhTthyqB_v9jQYvDr3ie2UvA69-xGxIqVmFkBU0hcJPpgLPKoVv8LR0grUJSfMsqUHbQEJV8I9uUCsw6MkuHU0s"/>
+<span class="absolute top-3 right-3 font-label-sm text-label-sm px-2.5 py-1 rounded bg-surface-container-lowest/80 text-status-available uppercase">Dual Failover</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-md text-headline-md text-primary">Koneksi Internet Stabil</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Koneksi dual-ISP redundant dengan routing khusus jalur game (0% packet loss) dan ping stabil &lt;5ms ke server game terpopuler di Asia Tenggara.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: PACKAGES & PRICING -->
+<section class="w-full py-16 lg:py-24 px-margin bg-surface">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col items-center text-center gap-space-sm max-w-2xl mx-auto">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-primary-container font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">sell</span>
+          HARGA TRANSPARAN &amp; FLEKSIBEL
+        </span>
+<h2 class="font-display-lg text-headline-lg lg:text-display-lg text-primary tracking-tight">Pilih Paket Sesuai Gaya Mainmu</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Semua paket sudah termasuk akses penuh ke semua game library populer (Steam, Riot, Battle.net, Epic Games), peripheral lengkap, dan fasilitas lounge.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter items-stretch">
+<!-- Paket Pagi -->
+<div class="p-6 rounded-2xl bg-surface-card shadow-lg flex flex-col justify-between gap-space-lg hover:bg-surface-elevated transition-all">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">06:00 - 12:00</span>
+<span class="material-symbols-outlined text-secondary text-[22px]">wb_twilight</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-headline-md text-headline-md text-primary">Paket Pagi</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Mulai hari dengan sesi warm-up santai</p>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="font-display-lg text-headline-lg text-primary">Rp 25.000</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ 4 Jam</span>
+</div>
+<div class="flex flex-col gap-2 pt-2">
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span>Termasuk Free Iced Tea</span>
+</div>
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span>Berlaku setiap hari</span>
+</div>
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span>Akses Smoking/Non-Smoking</span>
+</div>
+</div>
+</div>
+<a class="w-full py-2.5 rounded-lg bg-surface-container hover:bg-primary-container hover:text-on-primary-fixed text-center font-label-md text-label-md text-on-surface transition-all" data-path="booking-pc" href="#">
+            Pilih Paket &amp; Booking
+          </a>
+</div>
+<!-- Paket Siang -->
+<div class="p-6 rounded-2xl bg-surface-card shadow-lg flex flex-col justify-between gap-space-lg hover:bg-surface-elevated transition-all">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">12:00 - 18:00</span>
+<span class="material-symbols-outlined text-secondary text-[22px]">wb_sunny</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-headline-md text-headline-md text-primary">Paket Siang</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Peak hours push rank squad kompetitif</p>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="font-display-lg text-headline-lg text-primary">Rp 35.000</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ 4 Jam</span>
+</div>
+<div class="flex flex-col gap-2 pt-2">
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span>Reservasi disarankan</span>
+</div>
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span>High demand hours</span>
+</div>
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span>Pilih PC VIP / Battle Booth</span>
+</div>
+</div>
+</div>
+<a class="w-full py-2.5 rounded-lg bg-surface-container hover:bg-primary-container hover:text-on-primary-fixed text-center font-label-md text-label-md text-on-surface transition-all" data-path="booking-pc" href="#">
+            Pilih Paket &amp; Booking
+          </a>
+</div>
+<!-- Paket Begadang (Featured) -->
+<div class="relative p-6 rounded-2xl bg-surface-card shadow-2xl flex flex-col justify-between gap-space-lg group hover:scale-[1.02] transition-transform">
+<div class="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-0.5 rounded-full bg-primary-container text-on-primary-fixed font-label-sm text-label-sm uppercase tracking-wider font-bold shadow-md">
+            Best Seller
+          </div>
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase px-2 py-0.5 rounded bg-surface-container text-primary-container">22:00 - 06:00</span>
+<span class="material-symbols-outlined text-primary-container text-[22px]">dark_mode</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-headline-md text-headline-md text-primary">Paket Begadang</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Malam penuh energi &amp; maraton gaming</p>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="font-display-lg text-headline-lg text-primary-container">Rp 50.000</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ 8 Jam</span>
+</div>
+<div class="flex flex-col gap-2 pt-2">
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span>8 Jam penuh nonstop</span>
+</div>
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span>Free Mineral Water</span>
+</div>
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span>Pencahayaan atmosferik malam</span>
+</div>
+</div>
+</div>
+<a class="w-full py-2.5 rounded-lg bg-primary-container text-on-primary-fixed text-center font-label-md text-label-md font-bold shadow-[0_0_20px_rgba(0,255,102,0.3)] hover:shadow-[0_0_30px_rgba(0,255,102,0.5)] transition-all" data-path="booking-pc" href="#">
+            Pilih Paket &amp; Booking
+          </a>
+</div>
+<!-- Paket Reguler -->
+<div class="p-6 rounded-2xl bg-surface-card shadow-lg flex flex-col justify-between gap-space-lg hover:bg-surface-elevated transition-all">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">Fleksibel</span>
+<span class="material-symbols-outlined text-secondary text-[22px]">timer</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-headline-md text-headline-md text-primary">Billing Reguler</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Hitungan jam fleksibel bebas waktu</p>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="font-display-lg text-headline-lg text-primary">Rp 8.000</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ Jam</span>
+</div>
+<div class="flex flex-col gap-2 pt-2">
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span>Dapat diisi ulang kapan saja</span>
+</div>
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span>Sisa waktu tersimpan di akun</span>
+</div>
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span>Minimal top-up 1 jam</span>
+</div>
+</div>
+</div>
+<a class="w-full py-2.5 rounded-lg bg-surface-container hover:bg-primary-container hover:text-on-primary-fixed text-center font-label-md text-label-md text-on-surface transition-all" data-path="booking-pc" href="#">
+            Pilih Paket &amp; Booking
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: PC AVAILABILITY PREVIEW (12 PCs) -->
+<section class="w-full py-16 lg:py-24 px-margin bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-container">Denah &amp; Status Live</span>
+<h2 class="font-display-lg text-headline-lg lg:text-display-lg text-primary tracking-tight">Ketersediaan Stasiun PC (12 Rig)</h2>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm p-3 rounded-xl bg-surface-card">
+<div class="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant">
+<span class="w-2.5 h-2.5 rounded-full bg-status-available"></span>
+<span>Tersedia (8)</span>
+</div>
+<span class="text-on-surface-variant/40">|</span>
+<div class="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant">
+<span class="w-2.5 h-2.5 rounded-full bg-status-in-use"></span>
+<span>Digunakan (3)</span>
+</div>
+<span class="text-on-surface-variant/40">|</span>
+<div class="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant">
+<span class="w-2.5 h-2.5 rounded-full bg-status-reserved"></span>
+<span>Dipesan (1)</span>
+</div>
+<span class="text-on-surface-variant/40">|</span>
+<div class="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant">
+<span class="w-2.5 h-2.5 rounded-full bg-status-offline"></span>
+<span>Maintenance (0)</span>
+</div>
+</div>
+</div>
+<!-- Quick Interactive Grid: 12 PCs -->
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-space-md">
+<!-- PC-01 (Tersedia) -->
+<div class="p-4 rounded-xl bg-surface-card shadow-md flex flex-col justify-between gap-3 hover:bg-surface-elevated transition-colors">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">PC-01</span>
+<span class="w-2 h-2 rounded-full bg-status-available"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-status-available uppercase">Tersedia</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">RTX 4070 Ti • 240Hz</span>
+</div>
+<a class="w-full py-1.5 rounded bg-surface-container hover:bg-primary-container hover:text-on-primary-fixed text-center font-label-sm text-label-sm text-on-surface transition-all" data-path="booking-pc" href="#">Pilih Rig</a>
+</div>
+<!-- PC-02 (Digunakan) -->
+<div class="p-4 rounded-xl bg-surface-card shadow-md flex flex-col justify-between gap-3">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">PC-02</span>
+<span class="w-2 h-2 rounded-full bg-status-in-use"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-status-in-use uppercase">Digunakan</span>
+<span class="font-body-sm text-body-sm text-status-in-use font-mono">Sisa 01:42:15</span>
+</div>
+<span class="w-full py-1.5 rounded bg-surface-container/50 text-center font-label-sm text-label-sm text-on-surface-variant/50 cursor-not-allowed">Sedang Main</span>
+</div>
+<!-- PC-03 (Tersedia) -->
+<div class="p-4 rounded-xl bg-surface-card shadow-md flex flex-col justify-between gap-3 hover:bg-surface-elevated transition-colors">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">PC-03</span>
+<span class="w-2 h-2 rounded-full bg-status-available"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-status-available uppercase">Tersedia</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">RTX 4070 Ti • 240Hz</span>
+</div>
+<a class="w-full py-1.5 rounded bg-surface-container hover:bg-primary-container hover:text-on-primary-fixed text-center font-label-sm text-label-sm text-on-surface transition-all" data-path="booking-pc" href="#">Pilih Rig</a>
+</div>
+<!-- PC-04 (Digunakan) -->
+<div class="p-4 rounded-xl bg-surface-card shadow-md flex flex-col justify-between gap-3">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">PC-04</span>
+<span class="w-2 h-2 rounded-full bg-status-in-use"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-status-in-use uppercase">Digunakan</span>
+<span class="font-body-sm text-body-sm text-status-in-use font-mono">Sisa 00:28:40</span>
+</div>
+<span class="w-full py-1.5 rounded bg-surface-container/50 text-center font-label-sm text-label-sm text-on-surface-variant/50 cursor-not-allowed">Sedang Main</span>
+</div>
+<!-- PC-05 (Dipesan) -->
+<div class="p-4 rounded-xl bg-surface-card shadow-md flex flex-col justify-between gap-3">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">PC-05</span>
+<span class="w-2 h-2 rounded-full bg-status-reserved"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-status-reserved uppercase">Dipesan</span>
+<span class="font-body-sm text-body-sm text-status-reserved">Pukul 20:00 WIB</span>
+</div>
+<span class="w-full py-1.5 rounded bg-surface-container/50 text-center font-label-sm text-label-sm text-on-surface-variant/50 cursor-not-allowed">Reserved</span>
+</div>
+<!-- PC-06 (Tersedia) -->
+<div class="p-4 rounded-xl bg-surface-card shadow-md flex flex-col justify-between gap-3 hover:bg-surface-elevated transition-colors">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">PC-06</span>
+<span class="w-2 h-2 rounded-full bg-status-available"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-status-available uppercase">Tersedia</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">RTX 4080 • 280Hz</span>
+</div>
+<a class="w-full py-1.5 rounded bg-surface-container hover:bg-primary-container hover:text-on-primary-fixed text-center font-label-sm text-label-sm text-on-surface transition-all" data-path="booking-pc" href="#">Pilih Rig</a>
+</div>
+<!-- PC-07 (Tersedia) -->
+<div class="p-4 rounded-xl bg-surface-card shadow-md flex flex-col justify-between gap-3 hover:bg-surface-elevated transition-colors">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">PC-07</span>
+<span class="w-2 h-2 rounded-full bg-status-available"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-status-available uppercase">Tersedia</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">RTX 4080 • 280Hz</span>
+</div>
+<a class="w-full py-1.5 rounded bg-surface-container hover:bg-primary-container hover:text-on-primary-fixed text-center font-label-sm text-label-sm text-on-surface transition-all" data-path="booking-pc" href="#">Pilih Rig</a>
+</div>
+<!-- PC-08 (Digunakan) -->
+<div class="p-4 rounded-xl bg-surface-card shadow-md flex flex-col justify-between gap-3">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">PC-08</span>
+<span class="w-2 h-2 rounded-full bg-status-in-use"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-status-in-use uppercase">Digunakan</span>
+<span class="font-body-sm text-body-sm text-status-in-use font-mono">Sisa 03:10:05</span>
+</div>
+<span class="w-full py-1.5 rounded bg-surface-container/50 text-center font-label-sm text-label-sm text-on-surface-variant/50 cursor-not-allowed">Sedang Main</span>
+</div>
+<!-- PC-09 (Tersedia) -->
+<div class="p-4 rounded-xl bg-surface-card shadow-md flex flex-col justify-between gap-3 hover:bg-surface-elevated transition-colors">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">PC-09</span>
+<span class="w-2 h-2 rounded-full bg-status-available"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-status-available uppercase">Tersedia</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">RTX 4070 Ti • 240Hz</span>
+</div>
+<a class="w-full py-1.5 rounded bg-surface-container hover:bg-primary-container hover:text-on-primary-fixed text-center font-label-sm text-label-sm text-on-surface transition-all" data-path="booking-pc" href="#">Pilih Rig</a>
+</div>
+<!-- PC-10 (Tersedia) -->
+<div class="p-4 rounded-xl bg-surface-card shadow-md flex flex-col justify-between gap-3 hover:bg-surface-elevated transition-colors">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">PC-10</span>
+<span class="w-2 h-2 rounded-full bg-status-available"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-status-available uppercase">Tersedia</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">RTX 4070 Ti • 240Hz</span>
+</div>
+<a class="w-full py-1.5 rounded bg-surface-container hover:bg-primary-container hover:text-on-primary-fixed text-center font-label-sm text-label-sm text-on-surface transition-all" data-path="booking-pc" href="#">Pilih Rig</a>
+</div>
+<!-- PC-11 (Tersedia) -->
+<div class="p-4 rounded-xl bg-surface-card shadow-md flex flex-col justify-between gap-3 hover:bg-surface-elevated transition-colors">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">PC-11</span>
+<span class="w-2 h-2 rounded-full bg-status-available"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-status-available uppercase">Tersedia</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">RTX 4090 VIP • 280Hz</span>
+</div>
+<a class="w-full py-1.5 rounded bg-surface-container hover:bg-primary-container hover:text-on-primary-fixed text-center font-label-sm text-label-sm text-on-surface transition-all" data-path="booking-pc" href="#">Pilih Rig</a>
+</div>
+<!-- PC-12 (Tersedia) -->
+<div class="p-4 rounded-xl bg-surface-card shadow-md flex flex-col justify-between gap-3 hover:bg-surface-elevated transition-colors">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-primary">PC-12</span>
+<span class="w-2 h-2 rounded-full bg-status-available"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-status-available uppercase">Tersedia</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">RTX 4090 VIP • 280Hz</span>
+</div>
+<a class="w-full py-1.5 rounded bg-surface-container hover:bg-primary-container hover:text-on-primary-fixed text-center font-label-sm text-label-sm text-on-surface transition-all" data-path="booking-pc" href="#">Pilih Rig</a>
+</div>
+</div>
+<div class="flex justify-center pt-space-xs">
+<a class="inline-flex items-center gap-2 font-label-lg text-label-lg px-space-xl py-3 rounded-lg bg-surface-card hover:bg-surface-elevated text-primary-container hover:text-primary transition-all" data-path="booking-pc" href="#">
+<span>Buka Sistem Booking &amp; Denah Lengkap 12 PC</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- SECTION 6: LOCATION & CONTACT & FAQ -->
+<section class="w-full py-16 lg:py-24 px-margin bg-surface">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- Contact & Location Info -->
+<div class="lg:col-span-6 flex flex-col gap-space-lg">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-container">Kunjungi Markas HOG</span>
+<h2 class="font-display-lg text-headline-lg lg:text-display-lg text-primary tracking-tight">Lokasi Strategis &amp; Kontak</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Terletak di pusat keramaian dengan area parkir aman 24 jam untuk motor dan mobil. Selalu siap menyambut squad Anda.
+            </p>
+</div>
+<div class="flex flex-col gap-space-md">
+<div class="flex items-start gap-4 p-4 rounded-xl bg-surface-card">
+<div class="w-10 h-10 rounded-lg bg-primary-container/15 flex items-center justify-center text-primary-container shrink-0">
+<span class="material-symbols-outlined text-[24px]">location_on</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">Alamat Arena</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Jl. Boulevard Gaming Esports No. 88, Jakarta Barat, DKI Jakarta 11530</span>
+</div>
+</div>
+<div class="flex items-start gap-4 p-4 rounded-xl bg-surface-card">
+<div class="w-10 h-10 rounded-lg bg-secondary/15 flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[24px]">schedule</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">Jam Operasional</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Buka 24 Jam Setiap Hari (Senin s/d Minggu Tanpa Libur)</span>
+</div>
+</div>
+<div class="flex items-start gap-4 p-4 rounded-xl bg-surface-card">
+<div class="w-10 h-10 rounded-lg bg-status-available/15 flex items-center justify-center text-status-available shrink-0">
+<span class="material-symbols-outlined text-[24px]">chat</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">WhatsApp Reservasi &amp; Kasir</span>
+<span class="font-body-md text-body-md text-on-surface-variant">+62 812-3456-7890 (Layanan Cepat Response Admin)</span>
+</div>
+</div>
+</div>
+<!-- FAQ Snippet -->
+<div class="flex flex-col gap-space-sm pt-space-sm">
+<h3 class="font-headline-md text-headline-md text-primary">Pertanyaan Sering Diajukan</h3>
+<div class="p-4 rounded-xl bg-surface-card flex flex-col gap-1.5">
+<span class="font-headline-sm text-headline-sm text-primary">Apakah wajib mendaftar member sebelum bermain?</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Tidak wajib! Anda bisa bermain sebagai Guest (Tamu) dengan tarif reguler. Namun, member mendapatkan diskon paket hingga 20% dan sisa billing tersimpan aman selamanya.
+              </p>
+</div>
+<div class="p-4 rounded-xl bg-surface-card flex flex-col gap-1.5">
+<span class="font-headline-sm text-headline-sm text-primary">Bagaimana cara memesan makanan &amp; minuman ke meja?</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Setiap stasiun PC dilengkapi barcode QR cafe di desktop. Scan atau klik aplikasi launcher HOG Cafe, pilih menu, dan staf kami akan mengantarkan langsung ke meja Anda.
+              </p>
+</div>
+</div>
+</div>
+<!-- Map Card Preview -->
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<div class="relative w-full h-[400px] lg:h-[480px] rounded-2xl overflow-hidden shadow-2xl bg-surface-card">
+<div class="w-full h-full bg-cover bg-center" data-location="Jl. Boulevard Gaming Esports No. 88, Jakarta Barat" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD-aBKadphPSsDetl-ghnJHQVfBU_PBAUCz4OB23Re8P4YaX0bckPdoWdV7l_TeU23v6bYxM0IM2cmk7gZOpqdx6sRJ1I3nVhfIpUAqkcOZLbfj4r3YuNsBuddWkQWg8eZz_MbjlUY7yWlcbsbKkQRQVpyQ03CP7lpNAHSobiY_xYdNBEsUuzPB-vYUhnPp4tcrrQky7uGhcOz7SooNFm-6P05MxA7KrgPO8T7JSlc')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-base/90 via-transparent to-transparent pointer-events-none"></div>
+<div class="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-surface-container-lowest/90 backdrop-blur-md flex flex-col sm:flex-row items-center justify-between gap-space-sm">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary-fixed flex items-center justify-center font-bold">
+<span class="material-symbols-outlined text-[20px]">pin_drop</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">HOG Gaming Arena</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">5 Menit dari Stasiun / Pintu Tol</span>
+</div>
+</div>
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-surface-container hover:bg-surface-elevated text-primary font-label-md text-label-md transition-colors" href="https://maps.google.com" rel="noopener noreferrer" target="_blank">
+<span>Buka di Google Maps</span>
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-card"><div class="w-full px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="HOG Official Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VwBV3LPGocRl9kup1uFCZkBrTUI3IpQXXr-UKi4wMC4hmUaY4GiiFlIDXTHVPPtxhiJtwgxqPvW5CK8V-GzokqOSB6m4MHsdxHbMsq3hQPl9zWieJey-ct1z30LTc2D4hNPaofs41suIt0hEsHT52HPP6KFr7TsEP9FGeo7nrgmKJHci_US7etAhmDFagQA5KNbOS67-dcVfvSMJB9ME9rYkglz_LhrdCMuAsUQrEo"/><span class="font-headline-sm text-headline-sm uppercase text-primary">Home Of Gamers</span></div><p class="font-body-md text-body-md text-on-surface-variant">Your Game. Your Space. Your Home.</p><div class="inline-flex items-center gap-space-xs font-label-sm text-label-sm text-status-available uppercase"><span class="w-2 h-2 rounded-full bg-status-available animate-pulse"></span><span>Buka 24 Jam Setiap Hari</span></div></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-primary">Quick Links</span><ul class="flex flex-col gap-space-xs"><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer">Beranda</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer">Fasilitas</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer">Paket &amp; Harga</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer">Ketersediaan PC</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface cursor-pointer">Status Reservasi</li></ul></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-primary">Layanan &amp; Lokasi</span><p class="font-body-md text-body-md text-on-surface-variant">Pusat Gaming Esports Terbesar dengan Koneksi Dedicated 1 Gbps &amp; Hardware Turnamen.</p><a class="inline-flex items-center gap-space-xs font-label-md text-label-md text-secondary hover:text-secondary-fixed-dim transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">chat</span>WhatsApp Hubungi Admin</a></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-primary">Metode Pembayaran</span><p class="font-body-md text-body-md text-on-surface-variant">Dukungan QRIS, Virtual Account BCA/Mandiri, E-Wallet (GoPay, OVO, Dana), dan Tunai.</p><div class="flex items-center gap-space-sm text-on-surface-variant"><span class="material-symbols-outlined text-[20px]">qr_code_2</span><span class="material-symbols-outlined text-[20px]">account_balance</span><span class="material-symbols-outlined text-[20px]">payments</span></div></div></div><div class="mt-space-xl pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-on-surface-variant"><p>Copyright © 2025 Home Of Gamers (HOG) Indonesia. All rights reserved. Professional Warnet &amp; Gaming Lounge.</p><div class="flex items-center gap-space-md"><span class="hover:text-on-surface cursor-pointer">Kebijakan Privasi</span><span class="hover:text-on-surface cursor-pointer">Syarat &amp; Ketentuan</span></div></div></div></footer></body></html>

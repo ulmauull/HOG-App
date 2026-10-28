@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\pc\\Downloads\\rizki\\hog\\hog-app\\windows-agent\\HogAgent\\HogAgent.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\pc\\Downloads\\rizki\\hog\\hog-app\\windows-agent\\HogAgent\\HogAgent.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pc\\Downloads\\rizki\\hog\\hog-app\\windows-agent\\HogAgent\\HogAgent.csproj",
+        "projectName": "HogAgent",
+        "projectPath": "C:\\Users\\pc\\Downloads\\rizki\\hog\\hog-app\\windows-agent\\HogAgent\\HogAgent.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc\\Downloads\\rizki\\hog\\hog-app\\windows-agent\\HogAgent\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.Hosting.WindowsServices": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.427/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
