@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 19, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/pc/Downloads/rizki/hog/hog-app/app/favicon.ico.mjs%20(structured%20image%20object)"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 48, height: 48 }\n"],"names":["src","width","height"],"mappings":";;;;AAAA;;uCACe;IAAEA,KAAAA,mIAAG;IAAEC,OAAO;IAAIC,QAAQ;AAAG"}},
+    {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/pc/Downloads/rizki/hog/hog-app/app/page.tsx"],"sourcesContent":["export default function Home() { return <main style={{minHeight:\"100vh\",background:\"#0B0E14\",color:\"#fff\",padding:\"2rem\"}}><h1 style={{fontSize:\"2rem\",fontWeight:\"bold\"}}>Home Of Gamers</h1></main>; }"],"names":["Home","style","minHeight","background","color","padding","fontSize","fontWeight"],"mappings":";;;;;;AAAe,SAASA;IAAS,qBAAO,8OAAC;QAAKC,OAAO;YAACC,WAAU;YAAQC,YAAW;YAAUC,OAAM;YAAOC,SAAQ;QAAM;kBAAG,cAAA,8OAAC;YAAGJ,OAAO;gBAACK,UAAS;gBAAOC,YAAW;YAAM;sBAAG;;;;;;;;;;;AAA4B"}}]
+}

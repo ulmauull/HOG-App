@@ -1,0 +1,91 @@
+globalThis.__BUILD_MANIFEST = {
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/0cz1d0mv5g_q7.js"
+  ],
+  "lowPriorityFiles": [
+    "static/5fT9jXxTPsYcq7a4rtNSK/_buildManifest.js",
+    "static/5fT9jXxTPsYcq7a4rtNSK/_ssgManifest.js",
+    "static/5fT9jXxTPsYcq7a4rtNSK/_clientMiddlewareManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/1x6obpmlu1_c2.js",
+    "static/chunks/0ssqr03lk-c8r.js",
+    "static/chunks/2ki52vdnbo2ft.js",
+    "static/chunks/2j5x_ukdjbtxo.js",
+    "static/chunks/turbopack-3-ry682tkyiqk.js"
+  ],
+  "rootMainFilesTree": {},
+  "pagesChunkGroupBootstrapParams": {
+    "/page": {
+      "otherChunks": [
+        "static/chunks/1x6obpmlu1_c2.js",
+        "static/chunks/0ssqr03lk-c8r.js",
+        "static/chunks/2ki52vdnbo2ft.js",
+        "static/chunks/2j5x_ukdjbtxo.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    },
+    "/_not-found/page": {
+      "otherChunks": [
+        "static/chunks/1x6obpmlu1_c2.js",
+        "static/chunks/0ssqr03lk-c8r.js",
+        "static/chunks/2ki52vdnbo2ft.js",
+        "static/chunks/2j5x_ukdjbtxo.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    },
+    "/_global-error/page": {
+      "otherChunks": [
+        "static/chunks/1x6obpmlu1_c2.js",
+        "static/chunks/0ssqr03lk-c8r.js",
+        "static/chunks/2ki52vdnbo2ft.js",
+        "static/chunks/2j5x_ukdjbtxo.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    },
+    "/booking/page": {
+      "otherChunks": [
+        "static/chunks/1x6obpmlu1_c2.js",
+        "static/chunks/0ssqr03lk-c8r.js",
+        "static/chunks/2ki52vdnbo2ft.js",
+        "static/chunks/2j5x_ukdjbtxo.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    },
+    "/booking-details/page": {
+      "otherChunks": [
+        "static/chunks/1x6obpmlu1_c2.js",
+        "static/chunks/0ssqr03lk-c8r.js",
+        "static/chunks/2ki52vdnbo2ft.js",
+        "static/chunks/2j5x_ukdjbtxo.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    },
+    "/booking-status/page": {
+      "otherChunks": [
+        "static/chunks/1x6obpmlu1_c2.js",
+        "static/chunks/0ssqr03lk-c8r.js",
+        "static/chunks/2ki52vdnbo2ft.js",
+        "static/chunks/2j5x_ukdjbtxo.js"
+      ],
+      "runtimeModuleIds": [
+        94553
+      ]
+    }
+  },
+  "chunkLoadingGlobal": "TURBOPACK"
+};
