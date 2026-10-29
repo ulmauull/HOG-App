@@ -6,7 +6,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 123537,
+      "htmlSize": 72729,
       "experimentalPPR": true,
       "experimentalBypassFor": [
         {
@@ -113,9 +113,9 @@
     "/booking": {
       "renderingMode": "PARTIALLY_STATIC",
       "routeType": "page",
-      "response": "complete",
+      "response": "initial",
       "compute": "static",
-      "htmlSize": 50762,
+      "htmlSize": 9484,
       "experimentalPPR": true,
       "experimentalBypassFor": [
         {
@@ -187,7 +187,7 @@
       "routeType": "page",
       "response": "initial",
       "compute": "static",
-      "htmlSize": 15276,
+      "htmlSize": 15526,
       "experimentalPPR": true,
       "experimentalBypassFor": [
         {

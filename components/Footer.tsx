@@ -64,12 +64,12 @@ export default function Footer() {
             </p>
             <a
               className="inline-flex items-center gap-space-xs font-label-md text-label-md text-secondary hover:text-secondary-fixed transition-colors"
-              href="https://wa.me/6281234567890"
+              href="https://wa.me/6287878672111"
               target="_blank"
               rel="noopener noreferrer"
             >
               <span className="material-symbols-outlined text-[18px]">chat</span>
-              WhatsApp Hubungi Admin
+              WhatsApp: 0878-7867-2111
             </a>
           </div>
 

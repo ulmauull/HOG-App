@@ -42,6 +42,12 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/api/qris-webhook",
+      "regex": "^/api/qris\\-webhook(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/qris\\-webhook(?:/)?$"
+    },
+    {
       "page": "/booking",
       "regex": "^/booking(?:/)?$",
       "routeKeys": {},

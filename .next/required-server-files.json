@@ -105,7 +105,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "C:\\Users\\pc\\Downloads\\rizki\\hog\\hog-app",
+    "outputFileTracingRoot": "E:\\HOG-App",
     "enablePrerenderSourceMaps": true,
     "cacheComponents": true,
     "cacheLife": {
@@ -345,12 +345,12 @@
           "as": "*.css"
         }
       },
-      "root": "C:\\Users\\pc\\Downloads\\rizki\\hog\\hog-app"
+      "root": "E:\\HOG-App"
     },
-    "repoRoot": "C:\\Users\\pc\\Downloads\\rizki\\hog\\hog-app",
+    "repoRoot": "E:\\HOG-App",
     "distDirRoot": ".next"
   },
-  "appDir": "C:\\Users\\pc\\Downloads\\rizki\\hog\\hog-app",
+  "appDir": "E:\\HOG-App",
   "relativeAppDir": "",
   "files": [
     ".next\\package.json",

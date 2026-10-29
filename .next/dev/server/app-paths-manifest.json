@@ -1,4 +1,6 @@
 {
+  "/api/qris-webhook/route": "app/api/qris-webhook/route.js",
+  "/booking-status/page": "app/booking-status/page.js",
   "/booking/page": "app/booking/page.js",
   "/page": "app/page.js"
 }
